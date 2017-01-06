@@ -18,16 +18,7 @@ public class Prob2 {
 			count++;
 		}
 		System.out.println("평균은 "+(sum/count)+" 입니다.");
-		
-		
-
-		/* 키보드에서 배열 크기만큼 입력 받아 배열에 저장하는 코드 */
-
-		/* 배열에 저장된 정수 값 더하기 */
-
-		/* 출력 */
-
-		/* 자원정리 */
+				
 		scanner.close();
 	}
 }
