@@ -9,6 +9,17 @@ public class Prob2 {
 
 		int intArray[] = new int[5];
 		double sum = 0;
+		int count= 0;
+		
+		System.out.println(intArray.length+"개의 숫자를 입력하세요.");
+		for(int i=0;i<5;i++){
+			intArray[i]=scanner.nextInt();
+			sum+=intArray[i];
+			count++;
+		}
+		System.out.println("평균은 "+(sum/count)+" 입니다.");
+		
+		
 
 		/* 키보드에서 배열 크기만큼 입력 받아 배열에 저장하는 코드 */
 

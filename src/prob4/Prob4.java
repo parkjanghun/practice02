@@ -14,9 +14,16 @@ public class Prob4 {
 		scanner.close();
 	}
 	
-	public static char[] reverse(String  str) {
+	public static char[] reverse(String str) {
+		char[] c= str.toCharArray();
+		char[] c1=str.toCharArray();
+		for(int i=(c.length-1),j=0;i>=0;i--,j++){
+			c1[j]=c[i];
+		}
+		return c1;				
 	}
 
 	public static void printCharArray(char[] array){
+		System.out.println(array);
 	}
 }
