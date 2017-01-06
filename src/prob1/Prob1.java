@@ -10,8 +10,8 @@ public class Prob1 {
 		int money=sc.nextInt();
 		
 		for(int i=0;i<arr.length;i++){
-			int num=money/arr[i];
-			int num1=money%arr[i];
+			int num=money/arr[i]; //돈의 장 수
+			int num1=money%arr[i]; 
 			money=num1;
 			System.out.println(arr[i]+"원 : "+num+"개");
 		}
